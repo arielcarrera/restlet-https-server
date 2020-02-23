@@ -9,3 +9,6 @@ It has a self signed certificate/keystore inside for develop use.
 3. Compile restlet-https-client
 4. Run test class: com/github/arielcarrera/restlet_https_client/Test (main method)
 
+# Command line to create a develop keystore
+
+keytool -genkey -alias localhost -keyalg RSA -keysize 2048 -keypass localhost -storepass localhost -keystore keystore-dev.jks
