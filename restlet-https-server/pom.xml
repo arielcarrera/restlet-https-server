@@ -14,7 +14,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<version.restlet>2.4.0</version.restlet>
-		<version.junit>4.13</version.junit>
+		<version.junit>4.13.1</version.junit>
 	</properties>
 
 	<repositories>
